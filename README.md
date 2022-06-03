@@ -8,7 +8,7 @@
 ---
 
 ## About this project: 🙌
-> This is a solo project, It is an e-commerce website that sells clothes products across websites . A full-stack solo project developed by 10 days. We added features like filter products, sort products, cart manipulation&amp; End to End Flow etc.
+> This is a solo project, It is an e-commerce website that sells clothes products across websites . A full-stack solo project developed by 10 days. We added features like filter products, sort products, cart manipulation, search functionality, order tracking, wishlist product &amp; End to End Flow etc.
 
 ---
 
