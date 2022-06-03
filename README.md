@@ -43,9 +43,15 @@ First you have to have to go to the `Home Page`. There you have to click on prof
 ---
 
 ### Tech Stack Used 🔧
-- `HTML`
+#### Frontend
+- `Reactjs`
+- `Redux`
+- `Redux-Thunk`
 - `CSS`
-- `JavaScript`
+#### Backend
+- `Mongodb`
+- `Express`
+- `Mongoose`
 
 ---
 
@@ -134,6 +140,7 @@ First you have to have to go to the `Home Page`. There you have to click on prof
 ---
 ![resAddress](https://user-images.githubusercontent.com/93374756/171838484-c685e1d1-1eb5-457e-ba83-de3693620916.png)
 ![resCart](https://user-images.githubusercontent.com/93374756/171838486-f353b1fd-b975-4cc2-b10d-3c5538efd97f.png)
+
 ![resDetails](https://user-images.githubusercontent.com/93374756/171838491-3fcf2503-dafc-4fa8-a739-07ca064c308c.png)
 ![resHome](https://user-images.githubusercontent.com/93374756/171838504-d2f4a02c-6ac8-42a9-bc50-aeae7459bfb1.png)
 ![resOrder](https://user-images.githubusercontent.com/93374756/171838508-9b642916-f47d-4af5-9ac8-8417a438885e.png)
