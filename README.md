@@ -8,7 +8,7 @@
 ---
 
 ## About this project: 🙌
-> This is a solo project, It is an e-commerce website that sells clothes products across websites . A full-stack solo project developed by 10 days. We added features like filter products, sort products, cart manipulation, search functionality, order tracking, wishlist product &amp; End to End Flow etc.
+> This is a solo project, It is an e-commerce website that sells clothes products across websites . A full-stack solo project developed by 10 days. We added features like filter and sort products, cart manipulation, search functionality, order tracking, wishlist product &amp; End to End Flow etc.
 
 ---
 
@@ -22,23 +22,23 @@
 
 ### Pages & Features 👇
 
-- `Home Page`: Nav Bar with drop downs, sliding banners & slider for offer.
-- `Sign-Up`: User details stored to local storage.
-- `Sign-In`: User authentication to check whether user phone number and password match with details existing in the database.
-- `Sign-In with OTP Page`: User authentication to check whether user phone number exists in the database.
-- `OTP Sent Page`: Random 6 digit OTP generated every time user lands on this page.
-- `Product Category Page`: Women's products created dynamically with filter by color, discount and category.
-- `Cart`: User can see or remove products added in the cart and apply discount coupons.
-- `Checkout Page`: Users can add the delivery address.
+- `Home Page`: Nav Bar with drop downs, sliding banners & produc slider.
+- `Sign-Up`: User details stored on server-side.
+- `Sign-In`: User authentication to check whether user details existing in the database.
+- `Product Category Page`: Women's products created dynamically with filter by discount and category.
+- `Wishlist Page`: User can see or remove products added in the wishlist.
+- `Search Functionality`: Search product according to the product's title.
+- `Cart`: User can see or remove products added in the cart and change the quantity of product.
+- `Checkout Page`: Users can save the delivery address and edit the existing address.
 - `Payment Page`: Users can add their payment details.
-- `Order Successful`: cart gets empty automatically in local storage, once the user lands on this page.
+- `Order Successful`: Cart gets empty automatically and show the purchase product on order page.
 - `Additional Features`: Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
 
 ---
 
 ### How To Use ✅
 
-First you have to have to go to the `Home Page`. There you have to click on account to get a pop window where there is sign-up using mobile number. You'll get an OTP enter that OTP for validation and you'll be logged in. There you can explore the home page or go to the women's section to browse products. The products can be sorted according to color,  category & discount. Click on any product to go to its product page there you can add it bag by clicking on the add to bag button. You can add multiple items to the cart. Then click on cart to view the cart which is a pop-up slider. There coupouns can applied or items can be deleted. To proceed to checkout click on `Proceed to Buy` button on the top of cart which will redirect you to address page where address details can be added. After clicking on proceed to buy we get redirected to `Payment` page where card details can be added and buying process can be completed.
+First you have to have to go to the `Home Page`. There you have to click on profile button => signup button and go to the signup page and enter the required details and than login. There you can explore the home page or go to the women's section to browse products. The products can be sorted according to category & discount. Click on any product to go to its product details page there you can add for cart and wishlist. You can add multiple items to the cart. Then click on cart and redirect you to checkout page. There coupouns can applied or items can be deleted. To proceed to checkout click on `CONTINUE` button which will redirect you to address page where address details can be added and edit. After clicking on `CONTINUE` we get redirected to `Payment` page where card details can be added and buying process can be completed.
 
 ---
 
