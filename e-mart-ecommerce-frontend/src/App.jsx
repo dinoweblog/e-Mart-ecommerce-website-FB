@@ -13,6 +13,8 @@ import { Login } from "./Components/Login";
 import { useSelector } from "react-redux";
 import { PrivateRoute } from "./Components/Private/PrivateRoute";
 import { OrderPage } from "./Components/OrderPage";
+import { WishlistPage } from "./Components/WishlistPage";
+import { SearchPage } from "./Components/SearchPage";
 
 function App() {
   const { isAuthenticated } = useSelector((state) => state.login);
@@ -22,14 +24,26 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/shop/women" element={<WomenPage />} />
-      <Route path="/product/:id" element={<ProductDetailsPage />}></Route>
+      <Route
+        path="/product/:id/:url_title"
+        element={<ProductDetailsPage />}
+      ></Route>
       <Route path="/checkout/cart" element={<Checkout />}></Route>
       <Route path="/checkout/address" element={<Address />}></Route>
       <Route path="/checkout/payment" element={<Payment />}></Route>
       <Route path="/checkout/confirm" element={<OrderConfirm />}></Route>
       <Route path="/user/register" element={<Register />}></Route>
       <Route path="/user/login" element={<Login />}></Route>
-      <Route path="/YourOrder" element={<OrderPage />}></Route>
+      <Route
+        path="/YourOrder"
+        element={
+          <PrivateRoute isAuthenticated={isAuthenticated}>
+            <OrderPage />
+          </PrivateRoute>
+        }
+      ></Route>
+      <Route path="/wishlist" element={<WishlistPage />}></Route>
+      <Route path="/search=:search_text" element={<SearchPage />}></Route>
     </Routes>
   );
 }

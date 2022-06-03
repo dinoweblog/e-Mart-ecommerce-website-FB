@@ -38,9 +38,14 @@ export const Address = () => {
     dispatch(getAddressData(userId, token));
   }, []);
 
-   useEffect(() => {
-     document.title = "Your Address | e-mart shopping platform";
-   }, []);
+  useEffect(() => {
+    const body = document.querySelector("body");
+    body.style.overflow = isOpen ? "hidden" : "auto";
+  }, [isOpen]);
+
+  useEffect(() => {
+    document.title = "Your Address | e-mart shopping platform";
+  }, []);
 
   useEffect(() => {
     let x = 0;
@@ -92,9 +97,10 @@ export const Address = () => {
     })
       .then((res) => res.json())
       .then((res) => {
+        dispatch(getAddressData(userId, token));
         dispatch(getAddressSuccess());
       })
-      .catch((error) => dispatch(getAddressError()));
+      .catch((error) => dispatch(getAddressError(error)));
   };
 
   const deleteData = () => {};
@@ -256,7 +262,7 @@ export const Address = () => {
             dis={dis}
             btn={address.length > 0 ? true : false}
             redirectLink={"/checkout/payment"}
-            btnText={"ORDER PLACE"}
+            btnText={"CONTINUE"}
           />
         </div>
       </div>

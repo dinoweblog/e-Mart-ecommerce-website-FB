@@ -12,7 +12,7 @@ const SliderDiv = styled(Slider)`
     height: 360px;
   }
 
-  @media (min-width: 1300px) and (max-width: 1597px) {
+  @media (min-width: 1400px) and (max-width: 1597px) {
     div {
       height: 400px;
     }
@@ -34,7 +34,7 @@ const SliderDiv = styled(Slider)`
   }
 
   img {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
   }
 `;

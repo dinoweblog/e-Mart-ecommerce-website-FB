@@ -7,9 +7,7 @@ import { Navbar2 } from "./Navbar2";
 import "./Styles/Checkout.css";
 
 export const OrderConfirm = () => {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { cart_products } = useSelector((state) => state.cart_products);
 
   useEffect(() => {
     document.title = "Confirm Order | e-mart shopping platform";
@@ -32,14 +30,24 @@ export const OrderConfirm = () => {
             Your order is confirmed. You will receive an order confirmation
             email/SMS shortly with the expected delivery date for your items.
           </div>
-          <button
-            className="continue_shopping"
-            onClick={() => {
-              navigate("/");
-            }}
-          >
-            CONTINUE SHOPPING
-          </button>
+          <div className="confirm_page_btn">
+            <button
+              className="continue_shopping"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              CONTINUE SHOPPING
+            </button>
+            <button
+              className="continue_shopping"
+              onClick={() => {
+                navigate("/YourOrder");
+              }}
+            >
+              YOUR ORDER
+            </button>
+          </div>
         </div>
       </div>
       <Footer2 />
