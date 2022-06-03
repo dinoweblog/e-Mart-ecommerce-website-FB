@@ -106,14 +106,15 @@ First you have to have to go to the `Home Page`. There you have to click on prof
 - **Checkout**
 ---
 ![cartPage](https://user-images.githubusercontent.com/93374756/171838448-2b53470f-ae52-4db5-be3b-076b25e95f80.png)
-
 ---
 
 - **Address**
 ---
 ![addressPage1](https://user-images.githubusercontent.com/93374756/171838437-df3961ef-77c1-4b19-9fd2-9521c3e5c604.png)
+---
 ![addressPage2](https://user-images.githubusercontent.com/93374756/171838444-ba8814ca-e772-452f-9899-552e73cd5ec1.png)
 ---
+
 
 
 - **Payment**
@@ -138,17 +139,23 @@ First you have to have to go to the `Home Page`. There you have to click on prof
 
 - **ALL RESPONSIVE PAGES**
 ---
-![resAddress](https://user-images.githubusercontent.com/93374756/171838484-c685e1d1-1eb5-457e-ba83-de3693620916.png)
-![resCart](https://user-images.githubusercontent.com/93374756/171838486-f353b1fd-b975-4cc2-b10d-3c5538efd97f.png)
-
-![resDetails](https://user-images.githubusercontent.com/93374756/171838491-3fcf2503-dafc-4fa8-a739-07ca064c308c.png)
 ![resHome](https://user-images.githubusercontent.com/93374756/171838504-d2f4a02c-6ac8-42a9-bc50-aeae7459bfb1.png)
-![resOrder](https://user-images.githubusercontent.com/93374756/171838508-9b642916-f47d-4af5-9ac8-8417a438885e.png)
-![resPayment](https://user-images.githubusercontent.com/93374756/171838514-6b247e5c-afe8-41bd-9bec-2080305dfe7c.png)
+---
 ![resProduct](https://user-images.githubusercontent.com/93374756/171838517-1807a09c-00e9-4202-9176-4421f54d104c.png)
+---
 ![resProduct2](https://user-images.githubusercontent.com/93374756/171838525-66023ed1-8311-4ed5-b493-d9b5afbd3b1c.png)
+---
 ![resWishlist](https://user-images.githubusercontent.com/93374756/171838527-27cc5a88-ebba-4201-b854-34d22dd88736.png)
-
+---
+![resDetails](https://user-images.githubusercontent.com/93374756/171838491-3fcf2503-dafc-4fa8-a739-07ca064c308c.png)
+---
+![resCart](https://user-images.githubusercontent.com/93374756/171838486-f353b1fd-b975-4cc2-b10d-3c5538efd97f.png)
+---
+![resAddress](https://user-images.githubusercontent.com/93374756/171838484-c685e1d1-1eb5-457e-ba83-de3693620916.png)
+---
+![resPayment](https://user-images.githubusercontent.com/93374756/171838514-6b247e5c-afe8-41bd-9bec-2080305dfe7c.png)
+---
+![resOrder](https://user-images.githubusercontent.com/93374756/171838508-9b642916-f47d-4af5-9ac8-8417a438885e.png)
 ---
 
 
