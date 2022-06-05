@@ -29,7 +29,7 @@
 - `Checkout Page`: Users can save the delivery address and edit the existing address.
 - `Payment Page`: Users can add their payment details.
 - `Order Successful`: Cart gets empty automatically and show the purchase product on order page.
-- `Additional Features`: Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
+- `Additional Features`: `Pagination`, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
 
 ---
 
@@ -58,7 +58,8 @@ First you have to have to go to the `Home Page`. There you have to click on prof
 
 - **Home Page**
 ---
-![HomePage](https://user-images.githubusercontent.com/93374756/171838458-e235ef62-d3d1-4fc6-848b-6198825d533b.png)
+
+![HomePage](https://user-images.githubusercontent.com/93374756/172060990-c90c6084-6ab4-4e38-8e0e-b88642ba6486.png)
 
 ---
 
